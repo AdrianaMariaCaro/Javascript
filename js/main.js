@@ -48,5 +48,5 @@ precioTotal += bebidaSeleccionada.precio;
 console.log(`Bebida seleccionada: ${bebidaSeleccionada.nombre} (${bebidaSeleccionada.precio}$)`);
 
 
-
-alert((`Precio total: ${precioTotal.toFixed(2)}$`));
+alert(`Precio total: ${precioTotal}`);
+// alert((`Precio total: ${precioTotal.toFixed(2)}$`));
